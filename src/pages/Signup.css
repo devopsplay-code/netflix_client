@@ -1,0 +1,65 @@
+.auth-container {
+  background: url("../../assets/netflix-bg.png") no-repeat center center / cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.form-box {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 60px 68px 40px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 4px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.form-box h1 {
+  margin-bottom: 28px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+form input {
+  padding: 14px;
+  background: #333;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+}
+
+form button {
+  background-color: #e50914;
+  padding: 14px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+form button:hover {
+  background-color: #f40612;
+}
+
+.form-box p {
+  margin-top: 16px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.form-box a {
+  color: #fff;
+  text-decoration: underline;
+}

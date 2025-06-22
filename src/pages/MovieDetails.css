@@ -1,0 +1,53 @@
+/* src/pages/MovieDetails.css */
+.detail-page {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+}
+
+.detail-overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+
+.detail-info {
+  max-width: 600px;
+}
+
+.detail-info h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.desc {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.meta {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.btn-group {
+  display: flex;
+  gap: 15px;
+}
+
+.play, .list {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #e50914;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.play:hover, .list:hover {
+  background-color: #f40612;
+}

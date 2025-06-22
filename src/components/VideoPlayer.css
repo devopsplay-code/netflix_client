@@ -1,0 +1,68 @@
+.netflix-player-container {
+  background-color: #000;
+  color: #fff;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-header {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.left-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.back-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: white;
+  transition: 0.2s;
+}
+
+.back-icon:hover {
+  color: #e50914;
+}
+
+.video-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.quality-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.quality-btn {
+  padding: 8px 16px;
+  font-size: 1rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.quality-btn.active,
+.quality-btn:hover {
+  background-color: #e50914;
+  color: #fff;
+}
+
+.netflix-video {
+  width: 100%;
+  max-width: 1000px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(229, 9, 20, 0.6);
+}
