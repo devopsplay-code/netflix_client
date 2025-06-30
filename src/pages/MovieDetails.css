@@ -37,17 +37,33 @@
 .btn-group {
   display: flex;
   gap: 15px;
+  flex-wrap: wrap;
 }
 
-.play, .list {
+.play, .list, .convert {
   padding: 10px 20px;
   font-size: 1rem;
   background-color: #e50914;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.2s ease;
 }
 
-.play:hover, .list:hover {
+.play:hover, .list:hover, .convert:hover {
   background-color: #f40612;
+}
+
+.convert {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.convert:hover {
+  background-color: #666;
 }
